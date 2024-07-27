@@ -1,0 +1,15 @@
+name: car_racing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy>=1.23
+  - jupyter
+  - pip
+  - pip:
+    - gym[classic_control]>=0.26
+    - gym[box2d]
+    - scipy
+    - tqdm
+    - wheel
+    - matplotlib
