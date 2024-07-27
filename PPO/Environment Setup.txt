@@ -1,0 +1,5 @@
+conda create -n CarRacingPPO python=3.9 anaconda
+conda activate CarRacingPPO
+pip install stable-baselines3
+pip install pyglet==1.5.27
+pip install gym[box2d]
